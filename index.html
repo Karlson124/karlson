@@ -1,64 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Form</title>
-  <style>
-    /* Add some basic styling */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-    }
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .container h2 {
-      text-align: center;
-    }
-    .container label, .container input[type="text"], .container input[type="password"], .container button {
-      display: block;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-    .container label {
-      font-weight: bold;
-    }
-    .container input[type="text"], .container input[type="password"] {
-      padding: 10px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    .container button {
-      padding: 10px;
-      border-radius: 5px;
-      border: none;
-      background-color: #4CAF50;
-      color: #fff;
-      cursor: pointer;
-    }
-    .container button:hover {
-      background-color: #45a049;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Goodnews Karlson — M.S. Computer Science student, graduate researcher, software engineering and smart-home systems researcher, and cloud engineering learner." />
+  <title>Goodnews Karlson | Computer Science & Research</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h2>Login</h2>
-    <form action="login.php" method="POST">
-      <label for="username">Username</label>
-      <input type="text" id="username" name="username" placeholder="Enter your username" required>
-      
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password" placeholder="Enter your password" required>
-      
-      <button type="submit">Login</button>
-    </form>
-  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Goodnews Karlson</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">M.S. Computer Science • Graduate Researcher</p>
+          <h1>Building reliable software for smart systems and the cloud.</h1>
+          <p class="lead">
+            I am a Computer Science master's student at Auburn University at Montgomery with interests in
+            software engineering, smart-home automation, IoT, program analysis, machine learning, and cloud computing.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#research">View Research</a>
+            <a class="button secondary" href="https://github.com/Karlson124" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Current focus">
+          <span class="avatar" aria-hidden="true">GK</span>
+          <h2>Current Focus</h2>
+          <p>Graduate research in smart-home reliability and software analysis, while building practical AWS and cloud engineering skills.</p>
+          <div class="chips">
+            <span>Software Engineering</span>
+            <span>Smart Home</span>
+            <span>IoT</span>
+            <span>Cloud</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-kicker">About</p>
+        <h2>I work at the intersection of research and practical software engineering.</h2>
+        <p>
+          My current interests center on dependable smart-home automation, software analysis and debugging,
+          intelligent IoT systems, and scalable cloud infrastructure. I am preparing for Ph.D. opportunities while
+          continuing to develop the hands-on engineering skills needed for cloud and software engineering roles.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Research</p>
+        <h2>Research interests and current work</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Smart-Home Reliability</h3>
+            <p>
+              Graduate research focused on identifying reliability problems in smart-home automation configurations
+              and developing practical approaches for explaining and repairing problematic behavior.
+            </p>
+            <p class="note">Current graduate research — proposal and prototype stage.</p>
+          </article>
+          <article class="card">
+            <h3>Software Analysis & Debugging</h3>
+            <p>
+              Interested in static analysis, debugging, automated repair, configuration analysis, and empirical
+              software engineering for real-world automation systems.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Smart Buildings & Machine Learning</h3>
+            <p>
+              Exploring occupancy prediction, environmental sensing, occupant-centered systems, and machine-learning
+              methods for smart-building applications.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="section-kicker">Experience</p>
+        <h2>Academic and professional experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="date">Sept 2025 — Present</div>
+            <div>
+              <h3>Graduate Assistant</h3>
+              <p class="org">Auburn University at Montgomery Library</p>
+              <p>Support students and staff with computers, printing, and library technology, while escalating complex technical issues when needed.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="date">Jan 2023 — Aug 2024</div>
+            <div>
+              <h3>Teaching Assistant</h3>
+              <p class="org">Rivers State University</p>
+              <p>Taught CMS106: Introduction to Problem Solving Using Python to first-year students and supported grading and exam-record management.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="date">Aug 2022 — Jan 2023</div>
+            <div>
+              <h3>Web Development Student Intern</h3>
+              <p class="org">White Creativity Softwares, Port Harcourt</p>
+              <p>Contributed code to client applications and helped improve user interfaces to match design specifications.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Skills</p>
+        <h2>Technical toolkit</h2>
+        <div class="skill-grid">
+          <div><strong>Programming</strong><span>Python, C, C++, JavaScript, PHP, SQL</span></div>
+          <div><strong>Web</strong><span>HTML, CSS, JavaScript, Node.js</span></div>
+          <div><strong>Research & Systems</strong><span>Static analysis, web crawling, data labeling, Home Assistant, YAML</span></div>
+          <div><strong>Tools</strong><span>Git, GitHub, VS Code, PyCharm, Linux</span></div>
+          <div><strong>Currently Learning</strong><span>AWS, cloud infrastructure, DevOps, Docker, Terraform</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <p class="section-kicker">Education</p>
+        <h2>Academic background</h2>
+        <div class="education-grid">
+          <article class="card">
+            <p class="meta">Expected May 2027</p>
+            <h3>Master of Science, Computer Science</h3>
+            <p class="org">Auburn University at Montgomery</p>
+            <p>Graduate research focus: reliability issues in smart-home automations.</p>
+          </article>
+          <article class="card">
+            <p class="meta">2024</p>
+            <h3>Bachelor of Science, Computer Science</h3>
+            <p class="org">Rivers State University, Port Harcourt, Nigeria</p>
+            <p>GPA: 4.02/5.00</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <p class="section-kicker">Recognition</p>
+        <h2>Awards & honors</h2>
+        <div class="cards two">
+          <article class="card">
+            <h3>Award of Excellence</h3>
+            <p>Department of Computer Science, Rivers State University — 2024</p>
+            <p class="note">Graduated 4th of 186 students.</p>
+          </article>
+          <article class="card">
+            <h3>Alex Otti Foundation Scholarship</h3>
+            <p>2020 — 2023</p>
+            <p class="note">Awarded for academic excellence.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="section connect">
+      <div class="container narrow">
+        <p class="section-kicker">Connect</p>
+        <h2>Research, collaboration, and opportunities</h2>
+        <p>
+          I am interested in research collaborations, Ph.D. opportunities, funded academic programs,
+          and software/cloud engineering opportunities.
+        </p>
+        <div class="link-list">
+          <a href="mailto:karlsongoodnews1@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/Karlson124" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://orcid.org/0009-0004-7456-4615" target="_blank" rel="noreferrer">ORCID</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Goodnews Karlson. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
