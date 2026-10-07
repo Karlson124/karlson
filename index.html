@@ -1,213 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Goodnews Karlson — M.S. Computer Science student, graduate researcher, software engineering and smart-home systems researcher, and cloud engineering learner." />
-  <title>Goodnews Karlson | Computer Science & Research</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Goodnews Karlson is an M.S. Computer Science student at Auburn University at Montgomery, interested in software engineering, smart-home automation reliability, IoT, and cloud computing.">
+  <meta name="theme-color" content="#153147">
+  <title>Goodnews Karlson | Computer Science</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top">Goodnews Karlson</a>
-      <nav aria-label="Primary navigation">
+    <div class="wrap header-inner">
+      <a class="site-name" href="#top">Goodnews Karlson</a>
+      <nav aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
         <a href="#education">Education</a>
-        <a href="#connect">Connect</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">M.S. Computer Science • Graduate Researcher</p>
-          <h1>Building reliable software for smart systems and the cloud.</h1>
-          <p class="lead">
-            I am a Computer Science master's student at Auburn University at Montgomery with interests in
-            software engineering, smart-home automation, IoT, program analysis, machine learning, and cloud computing.
+  <main id="main">
+    <section class="intro wrap" id="top" aria-labelledby="intro-title">
+      <div class="intro-copy">
+        <p class="overline">Computer Science · Research &amp; Engineering</p>
+        <h1 id="intro-title">Goodnews<br>Karlson</h1>
+        <p class="role">M.S. Computer Science Student<br>Auburn University at Montgomery</p>
+        <p class="intro-description">
+          My interests are in software engineering, reliable smart-home systems,
+          the Internet of Things, and cloud computing. I am currently developing
+          graduate research in smart-home automation reliability.
+        </p>
+        <div class="intro-links">
+          <a class="primary-link" href="#research">Explore my research <span aria-hidden="true">→</span></a>
+          <a href="mailto:karlsongoodnews1@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="portrait.webp" width="260" height="260" alt="Portrait of Goodnews Karlson" fetchpriority="high">
+        <figcaption>Graduate student · Software engineering · IoT</figcaption>
+      </figure>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="wrap two-column">
+        <div class="section-heading"><p class="overline">01 / About</p><h2>About me</h2></div>
+        <div class="section-body">
+          <p>
+            I am an M.S. Computer Science student and graduate assistant at
+            Auburn University at Montgomery. I completed my B.Sc. in Computer Science
+            at Rivers State University, Nigeria.
           </p>
-          <div class="actions">
-            <a class="button primary" href="#research">View Research</a>
-            <a class="button secondary" href="https://github.com/Karlson124" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="button secondary" href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noreferrer">LinkedIn</a>
+          <p>
+            I enjoy investigating practical software problems and translating
+            research ideas into useful tools. Alongside my graduate research,
+            I am building a foundation in AWS, Linux, and cloud infrastructure,
+            with the goal of pursuing advanced research and software/cloud engineering work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="wrap">
+        <p class="overline">02 / Research</p>
+        <div class="section-title-row">
+          <h2>Research interests</h2>
+          <p>Current graduate research is at the proposal and prototype stage.</p>
+        </div>
+        <div class="research-list">
+          <article class="research-entry">
+            <span class="entry-index">01</span>
+            <div><h3>Software reliability and program analysis</h3><p>Understanding configuration-related failures and exploring techniques that help developers detect, explain, and repair software problems.</p></div>
+          </article>
+          <article class="research-entry">
+            <span class="entry-index">02</span>
+            <div><h3>Smart-home automation and IoT</h3><p>Studying the dependability and behavior of connected automation systems, particularly real-world smart-home configurations.</p></div>
+          </article>
+          <article class="research-entry">
+            <span class="entry-index">03</span>
+            <div><h3>Machine learning for smart buildings</h3><p>Interested in occupancy prediction, environmental sensing, and data-driven approaches to intelligent building systems.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="experience">
+      <div class="wrap">
+        <p class="overline">03 / Experience</p>
+        <h2>Academic &amp; professional experience</h2>
+        <div class="experience-list">
+          <div class="experience-entry">
+            <p class="dates">Sep 2025 – Present</p>
+            <div><h3>Graduate Assistant</h3><p class="institution">Auburn University at Montgomery Library</p><p>Assist students and staff with library technology, computing, and day-to-day technical support.</p></div>
+          </div>
+          <div class="experience-entry">
+            <p class="dates">Jan 2023 – Aug 2024</p>
+            <div><h3>Teaching Assistant</h3><p class="institution">Rivers State University</p><p>Supported first-year instruction in CMS106, Introduction to Problem Solving Using Python, as well as grading and assessment activities.</p></div>
+          </div>
+          <div class="experience-entry">
+            <p class="dates">Aug 2022 – Jan 2023</p>
+            <div><h3>Web Development Intern</h3><p class="institution">White Creativity Softwares · Port Harcourt, Nigeria</p><p>Contributed to client web applications and improved interfaces according to project requirements.</p></div>
           </div>
         </div>
-        <aside class="hero-card" aria-label="Current focus">
-          <span class="avatar" aria-hidden="true">GK</span>
-          <h2>Current Focus</h2>
-          <p>Graduate research in smart-home reliability and software analysis, while building practical AWS and cloud engineering skills.</p>
-          <div class="chips">
-            <span>Software Engineering</span>
-            <span>Smart Home</span>
-            <span>IoT</span>
-            <span>Cloud</span>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="wrap">
+        <p class="overline">04 / Education</p>
+        <h2>Education</h2>
+        <div class="education-list">
+          <div><p class="dates">Expected May 2027</p><h3>M.S. in Computer Science</h3><p>Auburn University at Montgomery</p></div>
+          <div><p class="dates">2024</p><h3>B.Sc. in Computer Science</h3><p>Rivers State University, Port Harcourt, Nigeria</p><p>CGPA 4.02 / 5.00</p></div>
+        </div>
+        <div class="academic-details">
+          <div><h3>Technical background</h3><p>Python · C/C++ · JavaScript · PHP · SQL · HTML/CSS · Git/GitHub · YAML · Home Assistant</p><p class="small">Currently learning: AWS, Linux, cloud infrastructure, DevOps.</p></div>
+          <div><h3>Honors</h3><p>Award of Excellence, Department of Computer Science, RSU (2024) — 4th of 186 graduates.</p><p>Alex Otti Foundation Scholarship (2020–2023).</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="wrap two-column">
+        <div class="section-heading"><p class="overline">05 / Contact</p><h2>Connect</h2></div>
+        <div class="section-body">
+          <p>I welcome conversations about research collaboration, Ph.D. opportunities, and software or cloud engineering.</p>
+          <p class="email-line"><a href="mailto:karlsongoodnews1@gmail.com">karlsongoodnews1@gmail.com <span aria-hidden="true">↗</span></a></p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/Karlson124" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://orcid.org/0009-0004-7456-4615" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a>
           </div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="container narrow">
-        <p class="section-kicker">About</p>
-        <h2>I work at the intersection of research and practical software engineering.</h2>
-        <p>
-          My current interests center on dependable smart-home automation, software analysis and debugging,
-          intelligent IoT systems, and scalable cloud infrastructure. I am preparing for Ph.D. opportunities while
-          continuing to develop the hands-on engineering skills needed for cloud and software engineering roles.
-        </p>
-      </div>
-    </section>
-
-    <section id="research" class="section alt">
-      <div class="container">
-        <p class="section-kicker">Research</p>
-        <h2>Research interests and current work</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Smart-Home Reliability</h3>
-            <p>
-              Graduate research focused on identifying reliability problems in smart-home automation configurations
-              and developing practical approaches for explaining and repairing problematic behavior.
-            </p>
-            <p class="note">Current graduate research — proposal and prototype stage.</p>
-          </article>
-          <article class="card">
-            <h3>Software Analysis & Debugging</h3>
-            <p>
-              Interested in static analysis, debugging, automated repair, configuration analysis, and empirical
-              software engineering for real-world automation systems.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Smart Buildings & Machine Learning</h3>
-            <p>
-              Exploring occupancy prediction, environmental sensing, occupant-centered systems, and machine-learning
-              methods for smart-building applications.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="container">
-        <p class="section-kicker">Experience</p>
-        <h2>Academic and professional experience</h2>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="date">Sept 2025 — Present</div>
-            <div>
-              <h3>Graduate Assistant</h3>
-              <p class="org">Auburn University at Montgomery Library</p>
-              <p>Support students and staff with computers, printing, and library technology, while escalating complex technical issues when needed.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="date">Jan 2023 — Aug 2024</div>
-            <div>
-              <h3>Teaching Assistant</h3>
-              <p class="org">Rivers State University</p>
-              <p>Taught CMS106: Introduction to Problem Solving Using Python to first-year students and supported grading and exam-record management.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="date">Aug 2022 — Jan 2023</div>
-            <div>
-              <h3>Web Development Student Intern</h3>
-              <p class="org">White Creativity Softwares, Port Harcourt</p>
-              <p>Contributed code to client applications and helped improve user interfaces to match design specifications.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section alt">
-      <div class="container">
-        <p class="section-kicker">Skills</p>
-        <h2>Technical toolkit</h2>
-        <div class="skill-grid">
-          <div><strong>Programming</strong><span>Python, C, C++, JavaScript, PHP, SQL</span></div>
-          <div><strong>Web</strong><span>HTML, CSS, JavaScript, Node.js</span></div>
-          <div><strong>Research & Systems</strong><span>Static analysis, web crawling, data labeling, Home Assistant, YAML</span></div>
-          <div><strong>Tools</strong><span>Git, GitHub, VS Code, PyCharm, Linux</span></div>
-          <div><strong>Currently Learning</strong><span>AWS, cloud infrastructure, DevOps, Docker, Terraform</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <p class="section-kicker">Education</p>
-        <h2>Academic background</h2>
-        <div class="education-grid">
-          <article class="card">
-            <p class="meta">Expected May 2027</p>
-            <h3>Master of Science, Computer Science</h3>
-            <p class="org">Auburn University at Montgomery</p>
-            <p>Graduate research focus: reliability issues in smart-home automations.</p>
-          </article>
-          <article class="card">
-            <p class="meta">2024</p>
-            <h3>Bachelor of Science, Computer Science</h3>
-            <p class="org">Rivers State University, Port Harcourt, Nigeria</p>
-            <p>GPA: 4.02/5.00</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt">
-      <div class="container">
-        <p class="section-kicker">Recognition</p>
-        <h2>Awards & honors</h2>
-        <div class="cards two">
-          <article class="card">
-            <h3>Award of Excellence</h3>
-            <p>Department of Computer Science, Rivers State University — 2024</p>
-            <p class="note">Graduated 4th of 186 students.</p>
-          </article>
-          <article class="card">
-            <h3>Alex Otti Foundation Scholarship</h3>
-            <p>2020 — 2023</p>
-            <p class="note">Awarded for academic excellence.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="connect" class="section connect">
-      <div class="container narrow">
-        <p class="section-kicker">Connect</p>
-        <h2>Research, collaboration, and opportunities</h2>
-        <p>
-          I am interested in research collaborations, Ph.D. opportunities, funded academic programs,
-          and software/cloud engineering opportunities.
-        </p>
-        <div class="link-list">
-          <a href="mailto:karlsongoodnews1@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/Karlson124" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://orcid.org/0009-0004-7456-4615" target="_blank" rel="noreferrer">ORCID</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>© <span id="year"></span> Goodnews Karlson. Built with GitHub Pages.</p>
-    </div>
+  <footer class="site-footer">
+    <div class="wrap"><span>© <span id="year">2026</span> Goodnews Karlson</span><span>Montgomery, Alabama · United States</span></div>
   </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
