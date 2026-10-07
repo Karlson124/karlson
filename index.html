@@ -3,118 +3,194 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Goodnews Karlson — Computer Science graduate student and software engineering researcher at Auburn University at Montgomery.">
-  <title>Goodnews Karlson | Computer Science</title>
+  <meta name="theme-color" content="#fbfaf8">
+  <meta name="description" content="Goodnews Karlson — M.S. Computer Science student at Auburn University at Montgomery. Research in reliable software, smart-home automation, IoT and cloud computing.">
+  <title>Goodnews Karlson — Computer Science & Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap header-content">
-      <a href="#home" class="brand">Goodnews Karlson<span>.</span></a>
-      <nav aria-label="Site navigation">
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="shell header-layout">
+      <a href="#top" class="brand" aria-label="Goodnews Karlson — Home">
+        <span class="brand-icon">GK<span>.</span></span>
+        <span class="brand-name">GOODNEWS KARLSON</span>
+      </a>
+      <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Show navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navigation" id="navigation" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+        <a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
 
-  <main id="home">
-    <section class="hero">
-      <div class="wrap hero-content">
-        <div class="hero-text">
-          <p class="eyebrow">M.S. COMPUTER SCIENCE · AUBURN UNIVERSITY AT MONTGOMERY</p>
-          <h1>Hi, I'm<br><span>Goodnews Karlson.</span></h1>
-          <p class="lead">Graduate student interested in software engineering, smart-home systems, IoT, and cloud computing.</p>
-          <p class="hero-summary">I enjoy solving practical problems through research and building reliable software that people can use.</p>
-          <div class="actions">
-            <a class="button" href="#research">My research <span aria-hidden="true">→</span></a>
-            <a class="button-outline" href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-layout">
+        <div class="hero-content">
+          <div class="hero-topline"><span class="topline-dash"></span> RESEARCHER &amp; SOFTWARE ENTHUSIAST</div>
+          <h1 id="hero-title">Hi, I'm <br><span>Goodnews</span> Karlson<span class="title-dot">.</span></h1>
+          <h2 class="hero-role">M.S. Computer Science Student <span class="role-divider">/</span> Auburn University at Montgomery</h2>
+          <p class="hero-description">I explore how software, smart systems, and emerging technology can solve real-world problems. My interests span software engineering, smart-home automation, IoT, and cloud computing.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
+            <a class="button button-light" href="mailto:karlsongoodnews1@gmail.com?subject=Academic%20CV%20request">Request my CV <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-links">
+            <a href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="https://github.com/Karlson124" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://orcid.org/0009-0004-7456-4615" target="_blank" rel="noopener noreferrer">ORCID ↗</a>
           </div>
         </div>
-        <div class="photo-panel">
-          <img src="assets/goodnews-karlson.webp" alt="Goodnews Karlson seated in a computer lab" width="315" height="400" fetchpriority="high">
+        <div class="hero-portrait">
+          <div class="photo-shape photo-shape-one" aria-hidden="true"></div>
+          <div class="photo-shape photo-shape-two" aria-hidden="true"></div>
+          <div class="photo-frame">
+            <img src="assets/goodnews-karlson.webp" alt="Goodnews Karlson seated in a computer lab, wearing a teal checked shirt" width="315" height="400" fetchpriority="high">
+          </div>
+          <div class="photo-label"><span class="photo-label-dot"></span><span><strong>Goodnews Karlson</strong><small>Graduate student &amp; researcher</small></span></div>
+        </div>
+      </div>
+      <div class="shell hero-foot"><span>SOFTWARE ENGINEERING</span><span class="separator"></span><span>SMART-HOME SYSTEMS</span><span class="separator"></span><span>CLOUD COMPUTING</span></div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="shell about-layout">
+        <div class="about-heading">
+          <p class="section-eyebrow"><span>01</span> ABOUT ME</p>
+          <h2>A curious mind.<br>A practical approach.</h2>
+          <div class="side-accent" aria-hidden="true"></div>
+        </div>
+        <div class="about-copy">
+          <p>I'm a Computer Science master's student at <strong>Auburn University at Montgomery</strong>, where I also work as a graduate assistant. I earned my bachelor's degree from Rivers State University in Nigeria.</p>
+          <p>I am interested in understanding why software systems fail, how developers can build more dependable systems, and how intelligent connected technologies can improve everyday life.</p>
+          <p>Alongside research, I'm building hands-on skills in AWS, Linux, and cloud infrastructure.</p>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="wrap slim">
-        <p class="section-label">ABOUT ME</p>
-        <h2>Research, technology, and real-world impact.</h2>
-        <p>I'm an M.S. Computer Science student at Auburn University at Montgomery and a graduate assistant at the university library. I previously studied Computer Science at Rivers State University, Nigeria, where I also supported introductory Python teaching.</p>
-        <p>I'm currently developing graduate research on the reliability of smart-home automations while expanding my skills in cloud engineering.</p>
-      </div>
-    </section>
+    <section class="research-section section" id="research">
+      <div class="shell">
+        <div class="section-header">
+          <div><p class="section-eyebrow"><span>02</span> RESEARCH</p><h2>What I'm exploring<span class="heading-period">.</span></h2></div>
+          <p>My current graduate study is at the research proposal and prototype stage.</p>
+        </div>
 
-    <section class="section tinted" id="research">
-      <div class="wrap">
-        <p class="section-label">RESEARCH</p>
-        <h2>What I'm working on</h2>
-        <p class="section-intro">My current master's work is at the proposal and prototype stage.</p>
-        <div class="cards">
-          <article class="card">
-            <span class="card-tag">CURRENT RESEARCH</span>
-            <h3>Smart-home reliability</h3>
-            <p>Exploring how software analysis can help identify and explain reliability problems in smart-home automation configurations.</p>
+        <article class="featured-project">
+          <div class="featured-copy">
+            <p class="featured-type"><span class="featured-light"></span> FEATURED GRADUATE RESEARCH</p>
+            <h3>Improving the reliability of smart-home automations.</h3>
+            <p>My current work explores how software analysis can identify and explain reliability problems in Home Assistant automation configurations, with the aim of supporting practical debugging and repair.</p>
+            <span class="research-stage">Research in progress · Master's project</span>
+          </div>
+          <div class="featured-visual" aria-hidden="true">
+            <div class="visual-ring ring-one"></div>
+            <div class="visual-ring ring-two"></div>
+            <div class="visual-core"><span>HA</span><small>RELIABILITY</small></div>
+            <div class="visual-node node-one"></div>
+            <div class="visual-node node-two"></div>
+          </div>
+        </article>
+
+        <div class="interest-grid">
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">◈</div>
+            <h3>Software Engineering</h3>
+            <p>Software reliability, program analysis, debugging, and developer-focused tools.</p>
           </article>
-          <article class="card">
-            <span class="card-tag">RESEARCH INTEREST</span>
-            <h3>Software engineering</h3>
-            <p>Interested in program analysis, debugging, software quality, and practical tools for developers.</p>
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">⌘</div>
+            <h3>Smart Homes &amp; IoT</h3>
+            <p>Connected systems, home automation, and dependable configurations.</p>
           </article>
-          <article class="card">
-            <span class="card-tag">RESEARCH INTEREST</span>
-            <h3>IoT and cloud systems</h3>
-            <p>Interested in connected systems, machine learning for smart buildings, and scalable cloud infrastructure.</p>
+          <article class="interest">
+            <div class="interest-icon" aria-hidden="true">▣</div>
+            <h3>Cloud &amp; ML</h3>
+            <p>Cloud engineering, smart buildings, occupancy prediction, and data-driven systems.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="experience">
-      <div class="wrap">
-        <p class="section-label">BACKGROUND</p>
-        <h2>Experience &amp; education</h2>
-        <div class="experience-list">
-          <div class="entry">
-            <span class="entry-date">2025 – Present</span>
-            <div><h3>Graduate Assistant</h3><p class="entry-place">Auburn University at Montgomery Library</p><p>Student and staff technology support.</p></div>
-          </div>
-          <div class="entry">
-            <span class="entry-date">2023 – 2024</span>
-            <div><h3>Teaching Assistant</h3><p class="entry-place">Rivers State University</p><p>Introductory programming instruction and assessment support.</p></div>
-          </div>
-          <div class="entry">
-            <span class="entry-date">2022 – 2023</span>
-            <div><h3>Web Development Intern</h3><p class="entry-place">White Creativity Softwares</p><p>Web development and user-interface improvements.</p></div>
-          </div>
+    <section class="experience-section section" id="experience">
+      <div class="shell">
+        <div class="section-header">
+          <div><p class="section-eyebrow"><span>03</span> MY EXPERIENCE</p><h2>Experience &amp; growth<span class="heading-period">.</span></h2></div>
         </div>
-        <div class="education">
-          <div><span class="entry-date">EXPECTED 2027</span><h3>M.S. Computer Science</h3><p>Auburn University at Montgomery</p></div>
-          <div><span class="entry-date">2024</span><h3>B.Sc. Computer Science</h3><p>Rivers State University · CGPA 4.02/5.00</p></div>
+        <div class="experience-grid">
+          <article class="role-card">
+            <p class="role-date">2025 — PRESENT</p>
+            <h3>Graduate Assistant</h3>
+            <p class="role-company">Auburn University at Montgomery Library</p>
+            <p>Support students and staff with technology, computing, and library technical services.</p>
+          </article>
+          <article class="role-card">
+            <p class="role-date">2023 — 2024</p>
+            <h3>Teaching Assistant</h3>
+            <p class="role-company">Rivers State University</p>
+            <p>Supported first-year Python problem-solving instruction, grading, and assessment.</p>
+          </article>
+          <article class="role-card">
+            <p class="role-date">2022 — 2023</p>
+            <h3>Web Development Intern</h3>
+            <p class="role-company">White Creativity Softwares</p>
+            <p>Worked on web applications and interface improvements for client projects.</p>
+          </article>
         </div>
-        <p class="honors"><strong>Recognition:</strong> RSU Award of Excellence (4th of 186 graduates) · Alex Otti Foundation Scholarship (2020–2023)</p>
       </div>
     </section>
 
-    <section class="section contact" id="contact">
-      <div class="wrap slim">
-        <p class="section-label">CONTACT</p>
-        <h2>Let's connect.</h2>
-        <p>I'm interested in research collaboration, Ph.D. opportunities, and software/cloud engineering.</p>
-        <a class="email" href="mailto:karlsongoodnews1@gmail.com">karlsongoodnews1@gmail.com ↗</a>
-        <div class="social">
-          <a href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-          <a href="https://github.com/Karlson124" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-          <a href="https://orcid.org/0009-0004-7456-4615" target="_blank" rel="noopener noreferrer">ORCID ↗</a>
+    <section class="education-section section" id="education">
+      <div class="shell">
+        <p class="section-eyebrow"><span>04</span> BACKGROUND</p>
+        <h2>Education &amp; recognition<span class="heading-period">.</span></h2>
+        <div class="education-layout">
+          <div class="education-group">
+            <div class="education-item"><span>EXPECTED MAY 2027</span><div><h3>M.S. Computer Science</h3><p>Auburn University at Montgomery</p></div></div>
+            <div class="education-item"><span>2024</span><div><h3>B.Sc. Computer Science</h3><p>Rivers State University · CGPA 4.02/5.00</p></div></div>
+          </div>
+          <aside class="honor-card">
+            <div class="honor-symbol" aria-hidden="true">✦</div>
+            <h3>Academic recognition</h3>
+            <p>Award of Excellence — <strong>4th of 186</strong> Computer Science graduates, RSU (2024).</p>
+            <div class="honor-rule"></div>
+            <p>Alex Otti Foundation Scholarship (2020–2023).</p>
+          </aside>
         </div>
+        <div class="skills-row"><strong>Technical skills</strong><p>Python · C/C++ · JavaScript · PHP · SQL · HTML/CSS · Git/GitHub · YAML · Home Assistant</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="shell contact-layout">
+        <div><p class="section-eyebrow"><span>05</span> GET IN TOUCH</p><h2>Let's connect and<br>create something meaningful<span class="heading-period">.</span></h2><p>Open to research conversations, Ph.D. opportunities, and software or cloud engineering connections.</p></div>
+        <div class="contact-action"><a class="button button-primary" href="mailto:karlsongoodnews1@gmail.com">Send me an email <span aria-hidden="true">↗</span></a><a class="email-text" href="mailto:karlsongoodnews1@gmail.com">karlsongoodnews1@gmail.com</a></div>
       </div>
     </section>
   </main>
-  <footer class="footer"><div class="wrap">© <span id="year">2026</span> Goodnews Karlson</div></footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <footer class="site-footer"><div class="shell footer-layout"><span>© <span id="year">2026</span> Goodnews Karlson</span><div><a href="https://www.linkedin.com/in/goodnews-karlson-22596125a" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/Karlson124" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://orcid.org/0009-0004-7456-4615" target="_blank" rel="noopener noreferrer">ORCID</a></div></div></footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('#menu-button');
+    const nav = document.querySelector('#navigation');
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+      nav.classList.toggle('open', !isOpen);
+    });
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+  </script>
 </body>
 </html>
