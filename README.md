@@ -1,29 +1,20 @@
-# Goodnews Karlson
+# Goodnews Karlson — Personal Academic Website
 
-M.S. Computer Science student with interests in software engineering, smart-home systems, IoT, cloud computing, and machine learning.
+This repository hosts my personal academic and professional website.
 
-## Research Interests
-- Software Engineering
-- Smart Home Automation
-- Internet of Things (IoT)
-- Software Analysis and Debugging
-- Machine Learning
-- Smart Buildings
-- Cloud Computing
+## About
+I am an M.S. Computer Science student at Auburn University at Montgomery with interests in software engineering, smart-home systems, IoT, cloud computing, and machine learning.
 
-## Currently Learning
-- Amazon Web Services (AWS)
-- Linux
-- Cloud Infrastructure
-- DevOps
-
-## Education
-- M.S. Computer Science — Auburn University at Montgomery
-- B.Sc. Computer Science — Rivers State University
-
-## Current Focus
-I am developing my graduate research in smart-home reliability and software analysis while building practical cloud engineering skills.
+## Website Sections
+- About
+- Research
+- Experience
+- Technical skills
+- Education
+- Awards
+- Contact and professional profiles
 
 ## Connect
-- ORCID: https://orcid.org/0009-0004-7456-4615
+- LinkedIn: https://www.linkedin.com/in/goodnews-karlson-22596125a
 - GitHub: https://github.com/Karlson124
+- ORCID: https://orcid.org/0009-0004-7456-4615
